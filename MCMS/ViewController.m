@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MagicalCreature.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    MagicalCreature *bigMonster = [[MagicalCreature alloc] init];
+    MagicalCreature *smallMonster = [[MagicalCreature alloc] init];
+    MagicalCreature *mediumMonster = [[MagicalCreature alloc] init];
+    self.creatures = [NSMutableArray arrayWithObjects:bigMonster, smallMonster, mediumMonster, nil];
 }
 
 - (void)didReceiveMemoryWarning {

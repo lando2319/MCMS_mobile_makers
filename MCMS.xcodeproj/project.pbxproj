@@ -15,6 +15,7 @@
 		CC2ECF4619E46C4A00D8BA39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2ECF4519E46C4A00D8BA39 /* Images.xcassets */; };
 		CC2ECF4919E46C4A00D8BA39 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC2ECF4719E46C4A00D8BA39 /* LaunchScreen.xib */; };
 		CC2ECF5519E46C4B00D8BA39 /* MCMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2ECF5419E46C4B00D8BA39 /* MCMSTests.m */; };
+		CC2ECF6019E46CDA00D8BA39 /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2ECF5F19E46CDA00D8BA39 /* MagicalCreature.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		CC2ECF4E19E46C4B00D8BA39 /* MCMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2ECF5319E46C4B00D8BA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC2ECF5419E46C4B00D8BA39 /* MCMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCMSTests.m; sourceTree = "<group>"; };
+		CC2ECF5E19E46CDA00D8BA39 /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
+		CC2ECF5F19E46CDA00D8BA39 /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				CC2ECF3A19E46C4A00D8BA39 /* AppDelegate.m */,
 				CC2ECF3F19E46C4A00D8BA39 /* ViewController.h */,
 				CC2ECF4019E46C4A00D8BA39 /* ViewController.m */,
+				CC2ECF5E19E46CDA00D8BA39 /* MagicalCreature.h */,
+				CC2ECF5F19E46CDA00D8BA39 /* MagicalCreature.m */,
 				CC2ECF4219E46C4A00D8BA39 /* Main.storyboard */,
 				CC2ECF4519E46C4A00D8BA39 /* Images.xcassets */,
 				CC2ECF4719E46C4A00D8BA39 /* LaunchScreen.xib */,
@@ -224,6 +229,7 @@
 			files = (
 				CC2ECF3B19E46C4A00D8BA39 /* AppDelegate.m in Sources */,
 				CC2ECF3E19E46C4A00D8BA39 /* MCMS.xcdatamodeld in Sources */,
+				CC2ECF6019E46CDA00D8BA39 /* MagicalCreature.m in Sources */,
 				CC2ECF4119E46C4A00D8BA39 /* ViewController.m in Sources */,
 				CC2ECF3819E46C4A00D8BA39 /* main.m in Sources */,
 			);
