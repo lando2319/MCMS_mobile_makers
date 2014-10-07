@@ -16,6 +16,7 @@
 		CC2ECF4919E46C4A00D8BA39 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC2ECF4719E46C4A00D8BA39 /* LaunchScreen.xib */; };
 		CC2ECF5519E46C4B00D8BA39 /* MCMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2ECF5419E46C4B00D8BA39 /* MCMSTests.m */; };
 		CC2ECF6019E46CDA00D8BA39 /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2ECF5F19E46CDA00D8BA39 /* MagicalCreature.m */; };
+		CCA4942F19E48251000105BA /* CreatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA4942E19E48251000105BA /* CreatureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		CC2ECF5419E46C4B00D8BA39 /* MCMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCMSTests.m; sourceTree = "<group>"; };
 		CC2ECF5E19E46CDA00D8BA39 /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
 		CC2ECF5F19E46CDA00D8BA39 /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
+		CCA4942D19E48251000105BA /* CreatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreatureViewController.h; path = ../CreatureViewController.h; sourceTree = "<group>"; };
+		CCA4942E19E48251000105BA /* CreatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreatureViewController.m; path = ../CreatureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 		CC2ECF3419E46C4A00D8BA39 /* MCMS */ = {
 			isa = PBXGroup;
 			children = (
+				CCA4942D19E48251000105BA /* CreatureViewController.h */,
+				CCA4942E19E48251000105BA /* CreatureViewController.m */,
 				CC2ECF3919E46C4A00D8BA39 /* AppDelegate.h */,
 				CC2ECF3A19E46C4A00D8BA39 /* AppDelegate.m */,
 				CC2ECF3F19E46C4A00D8BA39 /* ViewController.h */,
@@ -230,6 +235,7 @@
 				CC2ECF3B19E46C4A00D8BA39 /* AppDelegate.m in Sources */,
 				CC2ECF3E19E46C4A00D8BA39 /* MCMS.xcdatamodeld in Sources */,
 				CC2ECF6019E46CDA00D8BA39 /* MagicalCreature.m in Sources */,
+				CCA4942F19E48251000105BA /* CreatureViewController.m in Sources */,
 				CC2ECF4119E46C4A00D8BA39 /* ViewController.m in Sources */,
 				CC2ECF3819E46C4A00D8BA39 /* main.m in Sources */,
 			);
@@ -422,6 +428,7 @@
 				CC2ECF5A19E46C4B00D8BA39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC2ECF5B19E46C4B00D8BA39 /* Build configuration list for PBXNativeTarget "MCMSTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				CC2ECF5D19E46C4B00D8BA39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
