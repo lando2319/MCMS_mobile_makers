@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = self.creatureName;
+    self.title = self.creature.name;
 }
 
 - (void)didReceiveMemoryWarning {

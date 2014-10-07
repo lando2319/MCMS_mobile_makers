@@ -38,10 +38,6 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyCellID" forIndexPath:indexPath];
-
-
-
-    NSLog(@"%@", cell);
     MagicalCreature *creatureActual = [self.creatures objectAtIndex:indexPath.row];
     cell.textLabel.text = creatureActual.name;
     return cell;
@@ -51,7 +47,7 @@
 
     MagicalCreature *newMonster = [[MagicalCreature alloc] init];
     newMonster.name = self.textForCreature.text;
-    [self.creatures addObject:newMonster];
+    [self.creatures insertObject:newMonster atIndex:0];
     [self.monsterTableView reloadData];
     self.textForCreature.text = @"";
     
@@ -62,7 +58,9 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(UITableViewCell *)cell {
     CreatureViewController *creatureView = [segue destinationViewController];
-    creatureView.creatureName = cell.textLabel.text;
+    NSIndexPath *indexPath = [self.monsterTableView indexPathForCell:cell];
+
+    creatureView.creature = [self.creatures objectAtIndex:indexPath.row];
 }
 
 
