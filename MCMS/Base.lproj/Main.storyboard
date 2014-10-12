@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kqN-mR-09T">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kqN-mR-09T">
                                 <rect key="frame" x="252" y="28" width="97" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="p1T-gq-HtJ"/>
@@ -108,7 +108,8 @@
                         <viewControllerLayoutGuide type="top" id="m3D-Jn-b6E"/>
                         <viewControllerLayoutGuide type="bottom" id="wXn-3a-hhv"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="qkI-5G-O76" customClass="c">
+                    <view key="view" contentMode="scaleToFill" id="qkI-5G-O76" userLabel="CreatureViewController" customClass="c">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
